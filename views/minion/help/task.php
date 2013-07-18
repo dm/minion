@@ -1,7 +1,6 @@
-
 Usage
 =======
-php minion.php --task=<?php echo $task; ?> [--option1=value1] [--option2=value2]
+<?php echo $_SERVER['argv'][0]; ?> --task=<?php echo $task; ?> [--option1=value1] [--option2=value2]
 
 Details
 =======
@@ -13,5 +12,4 @@ Details
 Description
 ===========
 <?php echo $description; ?>
-
 

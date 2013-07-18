@@ -1,10 +1,10 @@
 Parameter Errors:
 <?php foreach ($errors as $parameter => $error): ?>
-    <?php echo $parameter; ?> - <?php echo $error; ?> 
+    <?php echo $parameter; ?> - <?php echo $error; ?>
 <?php endforeach; ?>
 
-Run
 
-    php index.php --task=<?php echo $task?> --help
+For more help on what the task does and usage details execute
 
-for more help
+    <?php echo $_SERVER['argv'][0]; ?> --task=<?php echo $task; ?> --help
+

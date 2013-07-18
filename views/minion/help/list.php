@@ -1,8 +1,8 @@
 Minion is a cli tool for performing tasks
 
-Usage 
+Usage
 
-    <?php echo $_SERVER['argv'][0]; ?> {task} --task=[options]
+    <?php echo $_SERVER['argv'][0]; ?> --task={task} --task=[options]
 
 Where {task} is one of the following:
 
@@ -11,7 +11,7 @@ Where {task} is one of the following:
 
 <?php endforeach; ?>
 
-For more information on what a task does and usage details execute 
+For more information on what a task does and usage details execute
 
     <?php echo $_SERVER['argv'][0]; ?> --task={task} --help
 

@@ -1,6 +1,6 @@
 <?php echo $error; ?>
 
-Run 
+Run
 
     index.php --uri=minion
 
